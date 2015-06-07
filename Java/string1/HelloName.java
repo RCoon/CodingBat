@@ -1,4 +1,4 @@
-package String_1;
+package string1;
 
 /*
  * Given a string name, e.g. "Bob", return a greeting of the form
