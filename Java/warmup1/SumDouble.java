@@ -1,4 +1,4 @@
-package Warmup_1;
+package warmup1;
 
 /*
  * Given two int values, return their sum. Unless the two values are the same,
