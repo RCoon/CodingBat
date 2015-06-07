@@ -1,4 +1,4 @@
-package Warmup_2;
+package warmup2;
 
 /*
  * Given a string and a non-negative int n, return a larger string that is n
