@@ -1,4 +1,4 @@
-package Array_1;
+package array1;
 
 /*
  * Given an array of ints, return true if 6 appears as either the first or
