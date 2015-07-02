@@ -6,9 +6,9 @@ package array3;
  * solution makes only a single "linear" pass of both arrays, taking advantage
  * of the fact that both arrays are already in sorted order.
  * 
- * linearIn({1, 2, 4, 6}, {2, 4}) -> true
- * linearIn({1, 2, 4, 6}, {2, 3, 4}) -> false
- * linearIn({1, 2, 4, 4, 6}, {2, 4}) -> true
+ * linearIn({1, 2, 4, 6}, {2, 4}) --> true
+ * linearIn({1, 2, 4, 6}, {2, 3, 4}) --> false
+ * linearIn({1, 2, 4, 4, 6}, {2, 4}) --> true
  */
 
 public class LinearIn {
