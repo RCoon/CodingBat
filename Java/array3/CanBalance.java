@@ -5,9 +5,9 @@ package array3;
  * so that the sum of the numbers on one side is equal to the sum of the 
  * numbers on the other side.
  * 
- * canBalance({1, 1, 1, 2, 1}) -> true
- * canBalance({2, 1, 1, 2, 1}) -> false
- * canBalance({10, 10}) -> true
+ * canBalance({1, 1, 1, 2, 1}) --> true
+ * canBalance({2, 1, 1, 2, 1}) --> false
+ * canBalance({10, 10}) --> true
  */
 
 public class CanBalance {
