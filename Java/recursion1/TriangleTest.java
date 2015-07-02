@@ -5,9 +5,9 @@ package recursion1;
  * (no loops or multiplication) the total number of blocks in such a triangle
  * with the given number of rows.
  *
- * triangle(0) -> 0
- * triangle(1) -> 1
- * triangle(2) -> 3
+ * triangle(0) --> 0
+ * triangle(1) --> 1
+ * triangle(2) --> 3
  */
 
 class TriangleTest {
