@@ -6,9 +6,9 @@ package recursion1;
  * (126 % 10 is 6), while divide (/) by 10 removes the rightmost digit
  * (126 / 10 is 12).
  * 
- * sumDigits(126) -> 9
- * sumDigits(49) -> 13
- * sumDigits(12) -> 3
+ * sumDigits(126) --> 9
+ * sumDigits(49) --> 13
+ * sumDigits(12) --> 3
  */
 
 public class SumDigitsTest {
