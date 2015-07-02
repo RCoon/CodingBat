@@ -6,9 +6,9 @@ package logic2;
  * if it is possible to make the goal by choosing from the given bricks. This 
  * is a little harder than it looks and can be done without any loops.
  * 
- * makeBricks(3, 1, 8) -> true
- * makeBricks(3, 1, 9) -> false
- * makeBricks(3, 2, 10) -> true
+ * makeBricks(3, 1, 8) --> true
+ * makeBricks(3, 1, 9) --> false
+ * makeBricks(3, 2, 10) --> true
  */
 
 public class MakeBricks {
