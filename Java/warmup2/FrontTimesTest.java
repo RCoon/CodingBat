@@ -5,9 +5,9 @@ package warmup2;
  * string is the first 3 chars, or whatever is there if the string is less
  * than length 3. Return n copies of the front. 
  *
- * frontTimes("Chocolate", 2) → "ChoCho"
- * frontTimes("Chocolate", 3) → "ChoChoCho"
- * frontTimes("Abc", 3) → "AbcAbcAbc"
+ * frontTimes("Chocolate", 2) --> "ChoCho"
+ * frontTimes("Chocolate", 3) --> "ChoChoCho"
+ * frontTimes("Abc", 3) --> "AbcAbcAbc"
  */
 
 public class FrontTimesTest {
