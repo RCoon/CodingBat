@@ -3,9 +3,9 @@
 # if it is possible to make the goal by choosing from the given bricks.
 # This is a little harder than it looks and can be done without any loops. 
 
-# make_bricks(3, 1, 8) → True
-# make_bricks(3, 1, 9) → False
-# make_bricks(3, 2, 10) → True
+# make_bricks(3, 1, 8) --> True
+# make_bricks(3, 1, 9) --> False
+# make_bricks(3, 2, 10) --> True
 
 def make_bricks(small, big, goal):
   num_fives = goal // 5
