@@ -5,9 +5,9 @@ package recursion1;
  * 3 ears, because they each have a raised foot. Recursively return the number
  * of "ears" in the bunny line 1, 2, ... n (without loops or multiplication).
  *
- * bunnyEars2(0) -> 0
- * bunnyEars2(1) -> 2
- * bunnyEars2(2) -> 5
+ * bunnyEars2(0) --> 0
+ * bunnyEars2(1) --> 2
+ * bunnyEars2(2) --> 5
  */
 
 class BunnyEars2 {
