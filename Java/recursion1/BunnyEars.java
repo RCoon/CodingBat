@@ -5,9 +5,9 @@ package recursion1;
  * to compute the total number of ears across all the bunnies recursively 
  * (without loops or multiplication).
  * 
- * bunnyEars(0) -> 0
- * bunnyEars(1) -> 2
- * bunnyEars(2) -> 4
+ * bunnyEars(0) --> 0
+ * bunnyEars(1) --> 2
+ * bunnyEars(2) --> 4
  */
 
 public class BunnyEars {
