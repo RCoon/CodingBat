@@ -7,9 +7,9 @@ package logic1;
  * bound on the number of cigars. Return true if the party with the given 
  * values is successful, or false otherwise.
  * 
- * cigarParty(30, false) -> false
- * cigarParty(50, false) -> true
- * cigarParty(70, true) -> true
+ * cigarParty(30, false) --> false
+ * cigarParty(50, false) --> true
+ * cigarParty(70, true) --> true
  */
 
 public class CigarParty {
