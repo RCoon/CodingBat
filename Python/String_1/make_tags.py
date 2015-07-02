@@ -3,9 +3,9 @@
 # the word "Yay". Given tag and word strings, create the HTML string with tags
 # around the word, e.g. "<i>Yay</i>". 
 
-# make_tags('i', 'Yay') → '<i>Yay</i>'
-# make_tags('i', 'Hello') → '<i>Hello</i>'
-# make_tags('cite', 'Yay') → '<cite>Yay</cite>'
+# make_tags('i', 'Yay') --> '<i>Yay</i>'
+# make_tags('i', 'Hello') --> '<i>Hello</i>'
+# make_tags('cite', 'Yay') --> '<cite>Yay</cite>'
 
 def make_tags(tag, word):
   return "<{0}>{1}</{2}>".format(tag, word, tag)
