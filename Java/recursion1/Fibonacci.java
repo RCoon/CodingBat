@@ -8,9 +8,9 @@ package recursion1;
  * and so on. Define a recursive fibonacci(n) method that returns the nth 
  * fibonacci number, with n=0 representing the start of the sequence. 
  * 
- * fibonacci(0) -> 0
- * fibonacci(1) -> 1
- * fibonacci(2) -> 1
+ * fibonacci(0) --> 0
+ * fibonacci(1) --> 1
+ * fibonacci(2) --> 1
  */
 
 public class Fibonacci {
