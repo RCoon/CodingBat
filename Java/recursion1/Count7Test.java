@@ -6,9 +6,9 @@ package recursion1;
  * yields the rightmost digit (126 % 10 is 6), while divide (/) by 10 removes
  * the rightmost digit (126 / 10 is 12).
  * 
- * count7(717) -> 2
- * count7(7) -> 1
- * count7(123) -> 0
+ * count7(717) --> 2
+ * count7(7) --> 1
+ * count7(123) --> 0
  */
 
 public class Count7Test {
