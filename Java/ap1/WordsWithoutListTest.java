@@ -23,7 +23,7 @@ public class WordsWithoutListTest {
 						   new String[] {"a", "bb", "b", "ccc"}, 4));
 	}
 	
-	public List wordsWithoutList(String[] words, int len) {
+	public List<String> wordsWithoutList(String[] words, int len) {
 	    ArrayList<String> newWords = new ArrayList<String>();
 	    
 	    for (int i = 0; i < words.length; i++) {
