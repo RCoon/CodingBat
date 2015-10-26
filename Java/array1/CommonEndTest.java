@@ -14,14 +14,14 @@ public class CommonEndTest {
 	public static void main(String[] args) {
 		CommonEndTest test = new CommonEndTest();
 		System.out.println(test.commonEnd(new int[] {1, 2, 3},
-						   new int[] {7, 3}));
+			new int[] {7, 3}));
 		System.out.println(test.commonEnd(new int[] {1, 2, 3},
-						   new int[] {7, 3, 2}));
+		    new int[] {7, 3, 2}));
 		System.out.println(test.commonEnd(new int[] {1, 2, 3},
-						   new int[] {1, 3}));
+		    new int[] {1, 3}));
 	}
 	
 	public boolean commonEnd(int[] a, int[] b) {
-		  return (a[0] == b[0] || a[a.length - 1] == b[b.length - 1]);
+	    return (a[0] == b[0] || a[a.length - 1] == b[b.length - 1]);
 	}
 }
