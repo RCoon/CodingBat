@@ -13,27 +13,27 @@ import java.util.Arrays;
  */
 public class BiggerTwoTest {
 
-	public static void main(String[] args) {
-		BiggerTwoTest test = new BiggerTwoTest();
-		System.out.println(Arrays.toString(test.biggerTwo(
-			new int[] {1, 2}, new int[] {3, 4})));
-		System.out.println(Arrays.toString(test.biggerTwo(
-			new int[] {3, 4}, new int[] {1, 2})));
-		System.out.println(Arrays.toString(test.biggerTwo(
-			new int[] {1, 1}, new int[] {1, 2})));
-	}
+    public static void main(String[] args) {
+	BiggerTwoTest test = new BiggerTwoTest();
+	System.out.println(Arrays.toString(test.biggerTwo(
+	    new int[] {1, 2}, new int[] {3, 4})));
+	System.out.println(Arrays.toString(test.biggerTwo(
+	    new int[] {3, 4}, new int[] {1, 2})));
+	System.out.println(Arrays.toString(test.biggerTwo(
+	    new int[] {1, 1}, new int[] {1, 2})));
+    }
 	
-	public int[] biggerTwo(int[] a, int[] b) {
-		  int totalA = 0;
-		  int totalB = 0;
+    public int[] biggerTwo(int[] a, int[] b) {
+	  int totalA = 0;
+	  int totalB = 0;
 		  
-		  totalA = a[0] + a[1];
-		  totalB = b[0] + b[1];
+	  totalA = a[0] + a[1];
+	  totalB = b[0] + b[1];
 		  
-		  if (totalA >= totalB) {
-		    return a;
-		  } else {
-		    return b;
-		  }
-		}
+	  if (totalA >= totalB) {
+              return a;
+	  } else {
+	      return b;
+	  }
+    }
 }
